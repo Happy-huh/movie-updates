@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Movie updates",
+    "slug": "movie-update",
+    "description": "This is an app that readily provides information on any and every movie including a description of the movie, cast, similar movies and much more. You can search information about your favorite movies and also get to know what movies are trending!",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash2.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.onyedika.movieupdate"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.onyedika.movieupdate"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "db01453e-ce51-4081-ab4f-029d02d60ece"
+      }
+    }
+  }
+}
